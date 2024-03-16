@@ -20,7 +20,7 @@ describe('To - do List Automation', function () {
   });
 
   it('SHOULD ADD A TASK', async function () {
-    await driver.findElement(By.css('#new-task')).sendKeys('GO TO SCHOOL');
+    await driver.findElement(By.css('#new-task')).sendKeys('GO TO COLLAGE');
     await driver.findElement(By.css('#addBtn')).click();
   });
 
