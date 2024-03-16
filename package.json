@@ -1,0 +1,22 @@
+{
+  "name": "automation-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*.js --reporter mochawesome",
+    "report": "marge reports/*.json -f reportName"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chromedriver": "^122.0.6",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "selenium-webdriver": "^4.18.1"
+  }
+}
